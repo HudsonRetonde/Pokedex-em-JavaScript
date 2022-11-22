@@ -14,20 +14,14 @@ function convertPokemonToHtml(pokemon) {
                 </div>       
             </li>
     `
-}
+};
 
 const pokemonList = document.getElementById('pokemonList');
 
-pokeApi.getPokemons().then((pokemons) => {     
+pokeApi.getPokemons().then((pokemons = []) => {     
+
+    pokemonList.innerHTML += pokemons.map(convertPokemonToHtml).join('');    
     
-        const listaItens = []
+});
 
-        for (let i = 0; i < pokemons.length; i++) {
-            const pokemon = pokemons [i];
-            listaItens.push(convertPokemonToHtml(pokemon))
-        }
-
-        console.log(listaItens)
-    })
-    .catch((error) => console.log(error))
     
