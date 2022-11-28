@@ -1,5 +1,5 @@
 # Pokedex-em-JavaScript
-Pokedex em JavaScript Puro
+Pokedex em JavaScript Puro.
 
 Neste projeto, o objetivo era consumir a API [pokeapi](https://pokeapi.co/).
 
