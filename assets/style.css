@@ -190,6 +190,9 @@ body{
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
+    .logo img {
+        max-width: 20rem;
+    }
 }
 
 @media screen and (min-width: 576px) {
