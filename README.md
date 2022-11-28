@@ -13,5 +13,7 @@ Você pode carregar a lista de pokemons clicando no botão Load More limitando a
 
 Trabalhamos os cards para trabalharem de forma dinâmica, alterando o número, nome, tipo e a cor conforme o tipo de pokemon, além de trabalhar a responsividade da aplicação.
 
+![image](https://user-images.githubusercontent.com/100444673/204299730-ef91e87f-ccdf-40dd-ba91-a217bf175c1c.png)
+
 Veja o deploy do projeto clicando no [link](https://hudsonretonde.github.io/Pokedex-em-JavaScript/).
 
